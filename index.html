@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Горячие клавиши Blender</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Blender, шорткаты, горячие клавиши, обзор, шпаргалка, 3D, моделирование">
+    <meta name="description" content="Подборка полезных стандартных горячих клавиш в Blender">
+
+    <meta property="og:title" content="Горячие клавиши Blender" />
+    <meta property="og:description" content="Подборка полезных стандартных горячих клавиш в Blender" />
+    <meta property="og:image" content="https://hollisbrown.github.io/blendershortcuts/img/thumbnail.jpg" />
+    <meta property="og:url" content="https://hollisbrown.github.io/blendershortcuts/" />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" type="text/css" href="screen.css" media="screen">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Горячие клавиши Blender</h1>
+        <p>
+            Этот сайт представляет подборку полезных стандартных горячих клавиш в <a href="https://www.blender.org/" target="_blank">Blender</a>.
+        </p>
+    </div>
+
+    <div class="main">
+        <div class="item" id="ChangeView">
+            <a class="itemLink" href="#ChangeView">
+                <h3>Изменить вид</h3>
+                <h3><em class="shortcut">Средняя кнопка мыши</em></h3>
+
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/MouseView.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>Перетаскивание <em class="shortcut">Средней кнопкой мыши</em> <em class="important">вращает</em> вид. Вращение происходит вокруг невидимого <em class="important">центра интереса</em>.</p>
+                    </li>
+                    <li>
+                        <p>Зажмите <em class="shortcut">Shift</em> и перетаскивайте, чтобы <em class="important">переместить</em> центр интереса.</p>
+                    </li>
+                    <li>
+                        <p>Зажмите <em class="shortcut">Ctrl</em> и перетаскивайте или крутите <em class="shortcut">колесико мыши</em>, чтобы <em class="important">приближать/отдалять</em> вид.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="AxisView">
+            <a class="itemLink" href="#AxisView">
+                <h3>Вид по осям</h3>
+                <h3><em class="shortcut">Num 1 &ndash; 9</em></h3>
+
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SnapView.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Num 1</em>, <em class="shortcut">Num 3</em> и <em class="shortcut">Num 7</em> для вида <em class="important">спереди</em>, <em class="important">сбоку</em> и <em class="important">сверху</em>.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Num 9</em> для <em class="important">инвертирования</em> текущего направления вида.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Num 5</em> для переключения в <em class="important">ортографический</em> режим.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Num 2</em>, <em class="shortcut">Num 4</em>, <em class="shortcut">Num 6</em>, <em class="shortcut">Num 8</em> для <em class="important">поворота</em> вида с шагом в 15°.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="CameraView">
+            <a class="itemLink" href="#CameraView">
+                <h3>Вид из камеры</h3>
+                <h3><em class="shortcut">Num 0</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/CameraView.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Num 0</em> для выравнивания вида по активной камере.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">Num 0</em> для выравнивания вида по выбранной камере и назначения её активной.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">Alt</em> + <em class="shortcut">Num 0</em> для выравнивания активной камеры по текущему виду.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="FrameSelected">
+            <a class="itemLink" href="#FrameSelected">
+                <h3>Сфокусироваться на выделенном</h3>
+                <h3><em class="shortcut">Num .</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/FrameSelected.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Num &#46;</em> установить <em class="important">центр интереса</em> на текущее выделение.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Num &#8725;</em> для переключения <em class="important">локального вида</em>, который также скрывает все, кроме выбранного объекта.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="ChangeMode">
+            <a class="itemLink" href="#ChangeMode">
+                <h3>Сменить режим</h3>
+                <h3><em class="shortcut">Ctrl</em> + <em class="shortcut">Tab</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/ChangeMode.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">Tab</em> для отображения всех доступных режимов.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Tab</em> для прямого переключения в режим правки.</p>
+                    </li>
+                    <li>
+                        <p>Если курсор наведен на таймлайн, <em class="shortcut">Ctrl</em> + <em class="shortcut">Tab</em> переключает в режим графов (Graph Editor).</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="SwitchObject">
+            <a class="itemLink" href="#SwitchObject">
+                <h3>Переключить объект</h3>
+                <h3><em class="shortcut">Alt</em> + <em class="shortcut">Q</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SwitchObject.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">Q</em> для переключения на объект под курсором без смены режима.</p>
+                    </li>
+                    <li>
+                        <p>Работает во всех режимах, включая <em class="important">режим позы</em> для объектов-арматур.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Move">
+            <a class="itemLink" href="#Move">
+                <h3>Переместить</h3>
+                <h3><em class="shortcut">G</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Move.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>Нажмите <em class="shortcut red">X</em>, <em class="shortcut green">Y</em> или <em class="shortcut blue">Z</em> для фиксации оси. Нажмите дважды для переключения с глобальных на локальные оси.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut red">X</em>, <em class="shortcut green">Y</em> или <em class="shortcut blue">Z</em> для исключения оси.</p>
+                    </li>
+                    <li>
+                        <p>В <em class="important">режиме правки</em> нажмите <em class="shortcut">G</em> дважды для скольжения вдоль существующих ребер.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Rotate">
+            <a class="itemLink" href="#Rotate">
+                <h3>Повернуть</h3>
+                <h3><em class="shortcut">R</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Rotate.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>Нажмите <em class="shortcut red">X</em>, <em class="shortcut green">Y</em> или <em class="shortcut blue">Z</em> для фиксации оси. Нажмите дважды для переключения с глобальных на локальные оси.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut red">X</em>, <em class="shortcut green">Y</em> или <em class="shortcut blue">Z</em> для исключения оси.</p>
+                    </li>
+                    <li>
+                        <p>Нажмите <em class="shortcut">R</em> дважды для переключения в режим карданова подвеса (Gimbal).</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Scale">
+            <a class="itemLink" href="#Scale">
+                <h3>Масштабировать</h3>
+                <h3><em class="shortcut">S</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Scale.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>Нажмите <em class="shortcut red">X</em>, <em class="shortcut green">Y</em> или <em class="shortcut blue">Z</em> для фиксации оси. Нажмите дважды для переключения с глобальных на локальные оси.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut red">X</em>, <em class="shortcut green">Y</em> или <em class="shortcut blue">Z</em> для исключения оси.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Add">
+            <a class="itemLink" href="#Add">
+                <h3>Добавить</h3>
+                <h3><em class="shortcut">Shift</em> + <em class="shortcut">A</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Add.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut">A</em> добавляет новые данные.</p>
+                    </li>
+                    <li>
+                        <p>В зависимости от контекста это может быть новый объект, новая геометрия внутри активного объекта или новый узел.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Delete">
+            <a class="itemLink" href="#Delete">
+                <h3>Удалить</h3>
+                <h3><em class="shortcut">X</em> / <em class="shortcut">Del</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Delete.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>Нажмите <em class="shortcut">X</em> или <em class="shortcut">Del</em> в <em class="important">объектном режиме</em> для удаления выбранных объектов.</p>
+                    </li>
+                    <li>
+                        <p>Нажмите <em class="shortcut">X</em> или <em class="shortcut">Del</em> в <em class="important">режиме правки</em> для удаления выбранных вершин, ребер или граней.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Hide">
+            <a class="itemLink" href="#Hide">
+                <h3>Скрыть</h3>
+                <h3><em class="shortcut">H</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Hide.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">H</em> чтобы скрыть выделенное.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut">H</em> чтобы скрыть всё, кроме выделенного.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">H</em> чтобы показать всё скрытое.</p>
+                    </li>
+                    <li>
+                        <p>Геометрия, скрытая в <em class="important">режиме правки</em>, будет видна в <em class="important">объектном режиме</em>.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Duplicate">
+            <a class="itemLink" href="#Duplicate">
+                <h3>Дублировать</h3>
+                <h3><em class="shortcut">Shift</em> + <em class="shortcut">D</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Duplicate.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut">D</em> для дублирования выделения.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">D</em> в <em class="important">объектном режиме</em> для создания <em class="important">связанных дубликатов</em>, которые ссылаются на исходные данные вместо их копирования.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="ChangeShading">
+            <a class="itemLink" href="#ChangeShading">
+                <h3>Изменить затенение</h3>
+                <h3><em class="shortcut">Z</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/ChangeShading.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut">Z</em> для переключения <em class="important">Каркаса</em> и <em class="important">Рентгена</em>, чтобы видеть и выбирать сквозь сетку.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">Z</em> для переключения только <em class="important">Рентгена</em>.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="SelectionModes">
+            <a class="itemLink" href="#SelectionModes">
+                <h3>Режимы выделения</h3>
+                <h3><em class="shortcut">1</em> , <em class="shortcut">2</em> , <em class="shortcut">3</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SelectionModes.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">1</em> для <em class="important">выделения вершин.</em></p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">2</em> для <em class="important">выделения ребер.</em></p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">3</em> для <em class="important">выделения граней.</em></p>
+                    </li>
+                    <li>
+                        <p>Переключение режимов может изменить выделение!</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Snap">
+            <a class="itemLink" href="#Snap">
+                <h3>Привязка (меню)</h3>
+                <h3><em class="shortcut">Shift</em> + <em class="shortcut">S</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SnapCursor.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>Перемещает один элемент точно к другому. Особенно полезно для позиционирования <em class="important">3D курсора</em>.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut">Правая кнопка мыши</em> для ручной установки 3D курсора.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="SnapToggle">
+            <a class="itemLink" href="#SnapToggle">
+                <h3>Привязка (временная)</h3>
+                <h3><em class="shortcut">Ctrl</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SnapGrid.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>Удерживайте <em class="shortcut">Ctrl</em> для включения привязки.</p>
+                    </li>
+                    <li>
+                        <p>Работает с <em class="important">Перемещением</em>, <em class="important">Вращением</em>, <em class="important">Масштабированием</em> и <em class="important">ползунками</em>.</p>
+                    </li>
+                    <li>
+                        <p>Можно привязываться к инкрементам (по умолчанию) или к геометрии (вершины, ребра, грани).</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="SnapBase">
+            <a class="itemLink" href="#SnapBase">
+                <h3>Привязка (базовая точка)</h3>
+                <h3><em class="shortcut">B</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SnapBase.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>После начала <em class="important">Перемещения</em>, <em class="important">Вращения</em> или <em class="important">Масштабирования</em>, нажмите <em class="shortcut">B</em> для включения привязки по базовой точке.</p>
+                    </li>
+                    <li>
+                        <p>Первый клик устанавливает базовую точку, второй клик — цель привязки.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="ClearTransform">
+            <a class="itemLink" href="#ClearTransform">
+                <h3>Очистить трансформацию</h3>
+                <h3><em class="shortcut">Alt</em> + <em class="shortcut">G</em> , <em class="shortcut">R</em> , <em class="shortcut">S</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/ClearTransform.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>Только в <em class="important">объектном режиме</em>.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">G</em> для сброса положения.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">R</em> для сброса поворота.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">S</em> для сброса масштаба.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Apply">
+            <a class="itemLink" href="#Apply">
+                <h3>Применить</h3>
+                <h3><em class="shortcut">Ctrl</em> + <em class="shortcut">A</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Apply.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>Только в <em class="important">объектном режиме</em>.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">A</em> для применения изменений трансформации.</p>
+                    </li>
+                    <li>
+                        <p>Применяет модификатор, если навести на него курсор в списке.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="RepeatLast">
+            <a class="itemLink" href="#RepeatLast">
+                <h3>Повторить последнее</h3>
+                <h3><em class="shortcut">Shift</em> + <em class="shortcut">R</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/RepeatLast.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut">R</em> для повторения последнего действия.</p>
+                    </li>
+                    <li>
+                        <p>Повторяет <em class="important">Перемещение</em>, <em class="important">Вращение</em> и <em class="important">Масштабирование</em> относительно результата предыдущего действия.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="SelectAll">
+            <a class="itemLink" href="#SelectAll">
+                <h3>Выделить всё</h3>
+                <h3><em class="shortcut">A</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SelectAll.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">A</em> для выделения всех объектов, вершин, ключей кадров и т.д. в зависимости от контекста.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">A</em> для снятия выделения.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="AddToSelection">
+            <a class="itemLink" href="#AddToSelection">
+                <h3>Добавить к выделению</h3>
+                <h3><em class="shortcut">Shift</em> + <em class="shortcut">Левая кнопка мыши</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SelectAdd.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut">Левая кнопка мыши</em> по невыделенному добавляет в выделение.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut">Левая кнопка мыши</em> по выделенному удаляет из выделения.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="SelectLoop">
+            <a class="itemLink" href="#SelectLoop">
+                <h3>Выделить кольцо/петлю</h3>
+                <h3><em class="shortcut">Alt</em> + <em class="shortcut">Левая кнопка мыши</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SelectLoop.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">Левая кнопка мыши</em>, когда курсор находится рядом с пересекающим ребром.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Alt</em>+<em class="shortcut">Shift</em>+<em class="shortcut">Левая кнопка мыши</em> для добавления или удаления петель из выделения.</p>
+                    </li>
+                    <li>
+                        <p>Работает только на множественных гранях, если они четырехугольные ("квадраты").</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="SelectPathArea">
+            <a class="itemLink" href="#SelectPathArea">
+                <h3>Выделить путь / область</h3>
+                <h3><em class="shortcut">Ctrl</em> + <em class="shortcut">Левая кнопка мыши</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SelectPathArea.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em>+<em class="shortcut">Левая кнопка мыши</em> для добавления кратчайшего пути вершин или граней к выделению.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em>+<em class="shortcut">Shift</em>+<em class="shortcut">Левая кнопка мыши</em> для добавления или удаления области.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="SelectLinked">
+            <a class="itemLink" href="#SelectLinked">
+                <h3>Выделить связанное</h3>
+                <h3><em class="shortcut">L</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SelectLinked.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">L</em> для выделения всех связанных вершин под курсором.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut">L</em> для удаления всех связанных вершин из выделения.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">L</em> для выделения того, что связано с текущим выделением.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="SelectMoreLess">
+            <a class="itemLink" href="#SelectMoreLess">
+                <h3>Выделить больше / меньше</h3>
+                <h3><em class="shortcut">Ctrl</em> + <em class="shortcut">Num +</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SelectMoreLess.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">Num +</em> для выделения большего (расширить выделение).</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">Num -</em> для выделения меньшего (сузить выделение).</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">Shift</em> + <em class="shortcut">Num +</em> для выделения элементов на том же расстоянии, что и последние два.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="SelectSimilar">
+            <a class="itemLink" href="#SelectSimilar">
+                <h3>Выделить похожее</h3>
+                <h3><em class="shortcut">Shift</em> + <em class="shortcut">G</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SelectSimilar.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut">G</em> для выделения всего со схожими признаками с текущим выделением.</p>
+                    </li>
+                    <li>
+                        <p>Также работает с выделенными объектами или узлами (Select Grouped).</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Extrude">
+            <a class="itemLink" href="#Extrude">
+                <h3>Экструдировать</h3>
+                <h3><em class="shortcut">E</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Extrude.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">E</em> для выдавливания связанной копии выделенной геометрии и ожидания ввода для перемещения.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">ESC</em> или <em class="shortcut">Правая кнопка мыши</em> для завершения выдавливания без перемещения. Создает "дубликаты" (совпадающие вершины)!</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">E</em> для дополнительных опций.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Inset">
+            <a class="itemLink" href="#Inset">
+                <h3>Вставка граней (Inset)</h3>
+                <h3><em class="shortcut">I</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Inset.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">I</em> для вставки граней внутрь выбранных.</p>
+                    </li>
+                    <li>
+                        <p>Нажмите <em class="shortcut">I</em> еще раз для индивидуальной вставки каждой грани.</p>
+                    </li>
+                    <li>
+                        <p>Нажмите <em class="shortcut">O</em> для переключения в режим выступа (Outset).</p>
+                    </li>
+                    <li>
+                        <p>Нажмите <em class="shortcut">B</em> для переключения учета граничных граней.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="AddFace">
+            <a class="itemLink" href="#AddFace">
+                <h3>Добавить грань</h3>
+                <h3><em class="shortcut">F</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Fill.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">F</em> для добавления новой грани в сетку. Создает новое ребро, если выделены две отдельные вершины.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">F</em> для заполнения N-угольников треугольниками.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">F</em> для вызова меню всех опций работы с гранями, включая "Сеточное заполнение" (Grid Fill).</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Merge">
+            <a class="itemLink" href="#Merge">
+                <h3>Объединить (Merge)</h3>
+                <h3><em class="shortcut">M</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/MergeCenter.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>Объединить все выбранные вершины в указанном месте.</p>
+                    </li>
+                    <li>
+                        <p><em class="important">Объединить по расстоянию</em> (Merge By Distance) для удаления вершин, которые находятся ближе, чем пороговое значение (настраивается в меню).</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Rip">
+            <a class="itemLink" href="#Rip">
+                <h3>Разрыв (Rip)</h3>
+                <h3><em class="shortcut">V</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Rip.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">V</em> для разрыва вершин или ребер.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">V</em> для разрыва с заполнением (Rip Fill).</p>
+                    </li>
+                    <li>
+                        <p>Направление разрыва определяется положением курсора.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Split">
+            <a class="itemLink" href="#Split">
+                <h3>Разделить (Split)</h3>
+                <h3><em class="shortcut">Y</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Split.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Y</em> для разделения выделения (отсоединения вершин/ребер).</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Alt</em> + <em class="shortcut">M</em> для разделения всех выбранных граней по их ребрам.</p>
+                    </li>
+                    <li>
+                        <p>Выделение отсоединяется, но остается частью того же блока данных и объекта.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Separate">
+            <a class="itemLink" href="#Separate">
+                <h3>Отделить (Separate)</h3>
+                <h3><em class="shortcut">P</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Separate.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">P</em> для отделения выделения в новый объект.</p>
+                    </li>
+                    <li>
+                        <p>Новый объект будет иметь те же модификаторы, что и объект, от которого он был отделен.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="LoopCut">
+            <a class="itemLink" href="#LoopCut">
+                <h3>Контурный разрез (Loop Cut)</h3>
+                <h3><em class="shortcut">Ctrl</em> + <em class="shortcut">R</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/LoopCut.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">R</em> для разрезания кольца граней на сегменты.</p>
+                    </li>
+                    <li>
+                        <p>Прокрутите <em class="shortcut">колесико мыши</em> для изменения количества сегментов.</p>
+                    </li>
+                    <li>
+                        <p>Работает только на множественных гранях, если они четырехугольные ("квадраты").</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="ConnectPath">
+            <a class="itemLink" href="#ConnectPath">
+                <h3>Соединить путь</h3>
+                <h3><em class="shortcut">J</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/ConnectPath.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">J</em> для соединения вершин в порядке их выделения.</p>
+                    </li>
+                    <li>
+                        <p>Разрезает грани и создает дополнительные вершины, когда путь пересекает существующие ребра.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Bevel">
+            <a class="itemLink" href="#Bevel">
+                <h3>Снятие фаски (Bevel)</h3>
+                <h3><em class="shortcut">Ctrl</em> + <em class="shortcut">B</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Bevel.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">B</em> для снятия фаски с ребер.</p>
+                    </li>
+                    <li>
+                        <p>Прокрутите <em class="shortcut">колесико мыши</em> для регулировки количества сегментов.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">V</em> для переключения режима фаски вершин.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">C</em> для переключения ограничения (clamping).</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">P</em> для регулировки профиля фаски.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Dissolve">
+            <a class="itemLink" href="#Dissolve">
+                <h3>Растворить (Dissolve)</h3>
+                <h3><em class="shortcut">Ctrl</em> + <em class="shortcut">X</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Dissolve.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">X</em> для удаления вершин, соединяя при этом окружающие ребра. Результат зависит от <em class="important">режима выделения</em>.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">X</em> <em class="important"> > Limited Dissolve</em> растворяет все вершины/ребра ниже порогового угла.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="ShrinkFatten">
+            <a class="itemLink" href="#ShrinkFatten">
+                <h3>Сжать/Расширить (Shrink/Fatten)</h3>
+                <h3><em class="shortcut">Alt</em> + <em class="shortcut">S</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/FattenShrink.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>В <em class="important">режиме правки</em>, <em class="shortcut">Alt</em> + <em class="shortcut">S</em> для перемещения вершин вдоль их нормалей.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="ProportionalEditing">
+            <a class="itemLink" href="#ProportionalEditing">
+                <h3>Пропорциональное редактирование</h3>
+                <h3><em class="shortcut">O</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/ProportionalEditing.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">O</em> для включения/выключения пропорционального редактирования.</p>
+                    </li>
+                    <li>
+                        <p>Прокрутите <em class="shortcut">колесико мыши</em> для изменения радиуса влияния.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut">O</em> для изменения профиля спада (falloff).</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Search">
+            <a class="itemLink" href="#Search">
+                <h3>Поиск</h3>
+                <h3><em class="shortcut">F3</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Search.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">F3</em> для открытия поиска операций (Menu Search).</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Стрелка вверх</em> и <em class="shortcut">Стрелка вниз</em> для навигации, <em class="shortcut">Enter</em> для выбора.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="Rename">
+            <a class="itemLink" href="#Rename">
+                <h3>Переименовать</h3>
+                <h3><em class="shortcut">F2</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Rename.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">F2</em> для переименования активного объекта.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">F2</em> для <em class="important">пакетного переименования</em> нескольких объектов сразу.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="ExtrudeToCursor">
+            <a class="itemLink" href="#ExtrudeToCursor">
+                <h3>Экструдировать к курсору</h3>
+                <h3><em class="shortcut">Ctrl</em> + <em class="shortcut">Правая кнопка мыши</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/ExtrudeToCursor.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">Правая кнопка мыши</em> для выдавливания в позицию курсора с подстройкой поворота предыдущего сегмента (удобно для моделирования кривых).</p>
+                    </li>
+                    <li>
+                        <p>Выдавливания будут размещены на глубине 3D курсора.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="GranularInput">
+            <a class="itemLink" href="#GranularInput">
+                <h3>Точный ввод</h3>
+                <h3><em class="shortcut">Shift</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/Granular.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>Удерживайте <em class="shortcut">Shift</em>, чтобы уменьшить чувствительность мыши для более точного контроля.</p>
+                    </li>
+                    <li>
+                        <p>Работает с <em class="important">Перемещением</em>, <em class="important">Вращением</em>, <em class="important">Масштабированием</em> и <em class="important">ползунками</em>.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="MultiEdit">
+            <a class="itemLink" href="#MultiEdit">
+                <h3>Мульти-редактирование</h3>
+                <h3><em class="shortcut">Alt</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/MultiEdit.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>Если выделено несколько объектов, изменение параметров обычно влияет только на <em class="important">активный</em> объект.</p>
+                    </li>
+                    <li>
+                        <p>Удерживайте <em class="shortcut">Alt</em>, чтобы изменить параметры <em class="important">всех выделенных</em> объектов одновременно.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="ToSphere">
+            <a class="itemLink" href="#ToSphere">
+                <h3>Превратить в сферу</h3>
+                <h3><em class="shortcut">Shift</em> + <em class="shortcut">Alt</em> + <em class="shortcut">S</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/ToSphere.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Shift</em> + <em class="shortcut">Alt</em> + <em class="shortcut">S</em> перемещает выбранные вершины, приближая их к сфере с центром в <em class="important">3D курсоре</em>.</p>
+                    </li>
+                    <li>
+                        <p>Превращает одиночную петлю вершин в окружность.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item" id="SubdivModifier">
+            <a class="itemLink" href="#SubdivModifier">
+                <h3>Модификатор Subdivision Surface</h3>
+                <h3><em class="shortcut">Ctrl</em> + <em class="shortcut">1</em></h3>
+                <video autoplay loop muted playsinline poster="img/loading.jpg">
+                    <source src="videos/SubdivModifier.mp4" type="video/mp4">
+                </video>
+            </a>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">1, 2, 3</em> для добавления модификатора подразделения поверхности (Subdivision Surface) с соответствующим уровнем.</p>
+                    </li>
+                    <li>
+                        <p><em class="shortcut">Ctrl</em> + <em class="shortcut">0</em> отключает модификатор (уровень 0).</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu">
+        <button type="button" id="buttonCollapse" class="hidden">&#8693;</button>
+    </div>
+</body>
+
+</html>
